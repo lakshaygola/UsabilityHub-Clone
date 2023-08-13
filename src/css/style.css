@@ -57,7 +57,6 @@ ul{
 .side-margin{
     width: 1180px;
     margin-inline: auto;
-    padding-inline: var(--left-right-padding)
 }
 
 .flex{
@@ -235,7 +234,7 @@ ul{
     text-align: center;
 }
 
-/* Feature section */
+/* Feature section 1 */
 
 .features-section1{
     margin-top: 90px;
@@ -246,13 +245,13 @@ ul{
     width: 630px;
 }
 
-.feat-description h3{
-    margin-block: 10px;
-}
-
 .fest-text-section{
     flex-direction: column;
     gap: 30px;
+}
+
+.feat-description h3{
+    margin-block: 10px;
 }
 
 .feat-quote-section{
@@ -266,6 +265,10 @@ ul{
     margin-block: 20px;
 }
 
+.quote{
+    font-size: 1.2rem;
+}
+
 .person-section{
     gap: 20px;
     align-items: center;
@@ -273,10 +276,6 @@ ul{
 
 .person-section img{
     width: 50px;
-}
-
-.quote{
-    font-size: 1.2rem;
 }
 
 .person-name{
@@ -289,11 +288,15 @@ ul{
     font-size: 1rem;
 }
 
+/* Feature section 2 */
+
 .features-section2{
     flex-direction: row-reverse;
     margin-top: 30px;
     gap: 80px;
 }
+
+/* Feature Section 3 */
 
 .features-section3{
     margin-top: 30px;
@@ -352,7 +355,8 @@ ul{
     background-size: cover;
 }
 
-/* Banner Section */
+/* Banner Section 1 */
+
 .banner1-section{
     margin-block: 20px;
     background-color: var(--primary-text-color);
@@ -363,10 +367,13 @@ ul{
     gap: 70px;
 }
 
+.banner-intro, .panel-feature-section{
+    margin-block: 20px;
+}
+
 .banner1-inner-section img{
     width: 587px;
 }
-
 
 .panel-feature-section{
     justify-content: space-around;
@@ -388,14 +395,10 @@ ul{
     align-items: center;
 }
 
-.banner-intro, .panel-feature-section{
-    margin-block: 20px;
-}
-
 /* Banner section 2 */
 
 .banner2-section{
-    margin-top: 10rem;
+    margin-block: 10rem;
     text-align: center;
 }
 
