@@ -1,11 +1,78 @@
 @media screen and (max-width: 991px) {
-    
+    .navigation-items{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 30px;
+    }
+    .banner2-section{
+        margin-block: 4rem;
+    }
+    .ex-card{
+        width: calc(50% - 10px);
+        gap: 10px;
+        height: 220px;
+    }
 }
 
-@media screen and (max-width: 786px) {
-    
+@media screen and (max-width: 767px) {
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .header-items{
+        flex-direction: column-reverse;
+    }
+    .header-left-item{
+        width: 100%;
+        text-align: center;
+    }
+    .primary-btn{
+        width: 100%;
+    }
+
+    .features-section1, .features-section2, .features-section3{
+        flex-direction: column;
+    }
+    .banner-btn-section{
+        flex-direction: column;
+    }
+
+    .banner1-inner-section{
+        flex-direction: column-reverse;
+    }
+
+    .learn-more-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-container{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 466px) {
-    
+    :root{
+        --left-right-padding: 10px;
+    }
+    .feature-card{
+        width: 100%;
+    }
+    .ex-card{
+        width: 100%;
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .sub-footer{
+        flex-direction: column;
+        gap: 10px;
+    }
 }

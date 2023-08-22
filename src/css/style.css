@@ -90,6 +90,7 @@ ul{
     padding: 15px 20px;
     transition: 0.2s ease-out;
     box-shadow: 0 0 2px var(--secondary-text-color);
+    text-align: center;
 }
 
 .primary-btn:hover{
@@ -138,6 +139,10 @@ ul{
     padding-inline: var(--left-right-padding);
 }
 
+.nav-toggle{
+    display: none;
+}
+
 .logo-img-container img{
     width: 200px;
 }
@@ -164,7 +169,7 @@ ul{
 }
 
 .header-left-item{
-    max-width: 40vw;
+    width: 50vw;
 }
 
 .header-left-item h2{
@@ -176,7 +181,7 @@ ul{
 }
 
 .header-right-item img{
-    width: 600px;
+    width: 100%;
 }
 
 /* Companies Logo sections */
@@ -192,7 +197,8 @@ ul{
 
 .companies-banners{
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -225,7 +231,7 @@ ul{
 
 .features-card-section{
     flex-wrap: wrap;
-    justify-content: center;;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -248,7 +254,7 @@ ul{
 }
 
 .feat-img-section img{
-    width: 630px;
+    width: 100%;
 }
 
 .fest-text-section{
@@ -326,22 +332,23 @@ ul{
 }
 
 .example-cards{
-    flex-basis: 22%;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ex-card{
+    width: 23%;
     padding: 10px;
     height: 278px;
+    position: relative;
     transition: all 0.2s ease-in;
 }
 
-.ex-card h3{
+.example-card-content{
     color: white;
-    position: relative;
-    bottom: 0px;
-    left: 0;
+    position: absolute;
+    bottom: 5px;
 }
 
 .ex-card:hover{
@@ -386,7 +393,7 @@ ul{
 }
 
 .banner1-inner-section img{
-    width: 587px;
+    width: 100%;
 }
 
 .panel-feature-section{
@@ -394,9 +401,12 @@ ul{
     align-items: center;
 }
 
-.panel-feature-section ul{
+.usp-list{
+    flex-direction: column;
+    justify-content: center;
     list-style-type: disc;
     color: white;
+    gap: 10px;
 }
 
 .banner1-content-section h2, .banner1-content-section p, .banner1-content-section h4{
